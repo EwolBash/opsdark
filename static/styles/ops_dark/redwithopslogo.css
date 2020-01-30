@@ -2099,13 +2099,13 @@ ul#userinfo_username:hover li#nav_userinfo a {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
-    height: 40px;
+    height: 60px;
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
     padding-left: 5px;
     padding-top: 7px;
-    width: 199px
+    width: 220px
 }
 
 #logo a,
