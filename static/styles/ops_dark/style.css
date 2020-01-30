@@ -3416,13 +3416,13 @@ table.forum_post .colhead_dark td > div {
     vertical-align: middle
 }
 .forum_post.forum_unread .colhead_dark td {
-    background: #561f1f;
-    background: #561f1f -webkit-gradient(linear, left bottom, left top, color-stop(0, #561f1f), to(#5c2323));
-    background: #561f1f -webkit-linear-gradient(bottom, #561f1f, #5c2323);
-    background: #561f1f -o-linear-gradient(bottom, #561f1f 0, #5c2323 100%);
-    background: #561f1f linear-gradient(0deg, #561f1f 0, #5c2323);
+    background: #230c0c;
+    background: #230c0c -webkit-gradient(linear, left bottom, left top, color-stop(0, #2b0f0f), to(#2b1212));
+    background: #230c0c -webkit-linear-gradient(bottom, #2b0f0f, #2a1010);
+    background: #230c0c -o-linear-gradient(bottom, #2b0f0f 0, #2d1313 100%);
+    background: #230c0c linear-gradient(0deg, #2b0f0f 0, #371717);
     border-bottom: 1px solid #3d2a2a;
-    color: #9a7979
+    color: #bfb8b8
 }
 .forum_post.sticky_post {
     overflow: hidden
@@ -3571,9 +3571,9 @@ table.forum_list tr.colhead td {
 #forums div.box.thin.clear .colhead_dark {
     font-size: unset;
     padding: 8px;
-    background: #561f1f;
+    background: #2b0f0f;
     border: 1px solid #3a1e1e;
-    color: #9a7979
+    color: #bfb8b8
 }
 #forums div.box.thin.clear .colhead_dark a {
     padding: 0 10px
