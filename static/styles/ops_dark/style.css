@@ -593,7 +593,7 @@ body {
     overflow-wrap: break-word;
     position: relative;
     background-color: #1a1c1d;
-    background-image: url(../assets/backgrounds/background.jpg)
+    background-image: url(static/styles/assets/backgrounds/background.jpg)
 }
 @media only screen and (max-width: 789px) {
     body {
@@ -828,7 +828,7 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    background-image: url(../assets/icons/drop-down-3.svg);
+    background-image: url(static/styles/assets/icons/drop-down-3.svg);
     background-position: right 8px center;
     background-repeat: no-repeat;
     background-size: 10px 10px;
@@ -1134,7 +1134,7 @@ p.min_padding {
 }
 .icon_add,
 .icon_remove {
-    background-image: url(../assets/icons/plus.svg);
+    background-image: url(static/styles/assets/icons/plus.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: 10px 10px;
@@ -1155,7 +1155,7 @@ p.min_padding {
     filter: brightness(100%)
 }
 .icon_remove {
-    background-image: url(../assets/icons/Remove.svg)
+    background-image: url(static/styles/assets/icons/Remove.svg)
 }
 .additional_add_artist a,
 .remove a,
@@ -1167,7 +1167,7 @@ a.vote_artist_down,
 a.vote_artist_up,
 a.vote_tag_down,
 a.vote_tag_up {
-    background: url(../assets/icons/Torrent-RM-tag-artist.svg) no-repeat 50%;
+    background: url(static/styles/assets/icons/Torrent-RM-tag-artist.svg) no-repeat 50%;
     display: inline-block;
     -webkit-filter: brightness(80%);
     filter: brightness(80%);
@@ -1181,12 +1181,12 @@ a.vote_tag_up {
     background-size: 10px 10px
 }
 .additional_add_artist a {
-    background-image: url(../assets/icons/plus.svg)
+    background-image: url(static/styles/assets/icons/plus.svg)
 }
 a.small_upvote,
 a.vote_artist_up,
 a.vote_tag_up {
-    background-image: url(../assets/icons/Voting-Up.svg);
+    background-image: url(static/styles/assets/icons/Voting-Up.svg);
     background-size: 9px 9px;
     -webkit-filter: brightness(60%);
     filter: brightness(60%)
@@ -1194,7 +1194,7 @@ a.vote_tag_up {
 a.small_downvote,
 a.vote_artist_down,
 a.vote_tag_down {
-    background-image: url(../assets/icons/Voting-Down.svg);
+    background-image: url(static/styles/assets/icons/Voting-Down.svg);
     background-size: 9px 9px;
     -webkit-filter: brightness(60%);
     filter: brightness(60%);
@@ -1213,11 +1213,11 @@ a.vote_tag_up:hover {
     filter: saturate(100%) brightness(100%)
 }
 .vote_album_up {
-    background-image: url(../assets/icons/Voting-Up.svg);
+    background-image: url(static/styles/assets/icons/Voting-Up.svg);
     background-size: 10px
 }
 .vote_album_down {
-    background-image: url(../assets/icons/Voting-Down.svg);
+    background-image: url(static/styles/assets/icons/Voting-Down.svg);
     background-size: 10px
 }
 .album_votes span {
@@ -1376,7 +1376,7 @@ strong.mature {
     display: none
 }
 strong.mature + strong {
-    background: #000 url(../assets/icons/Forum-Mature.svg) no-repeat 0 0;
+    background: #000 url(static/styles/assets/icons/Forum-Mature.svg) no-repeat 0 0;
     border: 2px solid #fff;
     color: #333;
     display: inline-block;
@@ -1587,7 +1587,7 @@ strong.mature + strong + br + a {
     color: #ccc
 }
 #userinfo_minor {
-    background: transparent url(../assets/icons/drop-down-menu.svg) no-repeat left -22px center;
+    background: transparent url(static/styles/assets/icons/drop-down-menu.svg) no-repeat left -22px center;
     background-size: 165px 24px!important;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 123px;
@@ -1601,7 +1601,7 @@ strong.mature + strong + br + a {
 }
 @media only screen and (max-width: 789px) {
     #userinfo_minor {
-        background: transparent url(../assets/icons/drop-down-3.svg) no-repeat left 15px center!important;
+        background: transparent url(static/styles/assets/icons/drop-down-3.svg) no-repeat left 15px center!important;
         background-size: 25%!important;
         -webkit-box-flex: 0;
         -ms-flex: 0 0 25%;
@@ -1672,76 +1672,76 @@ strong.mature + strong + br + a {
     color: #e35151
 }
 #nav_inbox a {
-    background-image: url(../assets/icons/Header-Messages-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Header-Messages-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Header-Messages-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Header-Messages-read.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Header-Messages-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Header-Messages-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Messages-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Messages-read.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #nav_staffinbox a {
-    background-image: url(../assets/icons/Header-Staff-messages.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Header-Staff-messages.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Header-Staff-messages.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Header-Staff-messages.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Header-Staff-messages.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Header-Staff-messages.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Staff-messages.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Staff-messages.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #nav_uploaded a {
-    background-image: url(../assets/icons/Header-Uploads.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Header-Uploads.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Header-Uploads.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Header-Uploads.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Header-Uploads.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Header-Uploads.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Uploads.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Uploads.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #nav_bookmarks a {
-    background-image: url(../assets/icons/Header-Bookmark.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Header-Bookmark.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Header-Bookmark.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Header-Bookmark.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Header-Bookmark.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Header-Bookmark.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Bookmark.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Bookmark.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #nav_notifications a {
-    background-image: url(../assets/icons/Header-Notifications-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Header-Notifications-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Header-Notifications-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Header-Notifications-read.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Header-Notifications-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Header-Notifications-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Notifications-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Notifications-read.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #nav_subscriptions a {
-    background-image: url(../assets/icons/Header-Subscriptions-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Header-Subscriptions-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Header-Subscriptions-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Header-Subscriptions-read.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Header-Subscriptions-read.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Header-Subscriptions-read.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Subscriptions-read.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Subscriptions-read.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #nav_comments a {
-    background-image: url(../assets/icons/Header-Comments.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Header-Comments.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Header-Comments.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Header-Comments.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Header-Comments.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Header-Comments.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Comments.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Comments.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #nav_friends a {
-    background-image: url(../assets/icons/Header-Friends.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Header-Friends.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Header-Friends.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Header-Friends.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Header-Friends.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Header-Friends.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Friends.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Friends.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #nav_better a {
-    background-image: url(../assets/icons/Header-Better.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Header-Better.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Header-Better.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Header-Better.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Header-Better.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Header-Better.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Better.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Better.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #nav_posts a {
-    background-image: url(../assets/icons/Header-Posts.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Header-Posts.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Header-Posts.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Header-Posts.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Header-Posts.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Header-Posts.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Posts.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Posts.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #nav_logchecker a {
-    background-image: url(../assets/icons/Wiki-Log.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Wiki-Log.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Wiki-Log.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Wiki-Log.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Wiki-Log.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Wiki-Log.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Wiki-Log.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Wiki-Log.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #nav_subscriptions.new-subscriptions a {
-    background-image: url(../assets/icons/Header-Subscriptions-new.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
-    background-image: url(../assets/icons/Header-Subscriptions-new.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
-    background-image: url(../assets/icons/Header-Subscriptions-new.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
-    background-image: url(../assets/icons/Header-Subscriptions-new.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
+    background-image: url(static/styles/assets/icons/Header-Subscriptions-new.svg), -webkit-gradient(linear, right top, left top, from(#252525), color-stop(50%, #252525), color-stop(50%, #e35151), to(#7f2d2d));
+    background-image: url(static/styles/assets/icons/Header-Subscriptions-new.svg), -webkit-linear-gradient(right, #252525, #252525 50%, #e35151 0, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Subscriptions-new.svg), -o-linear-gradient(right, #252525, #252525 50%, #e35151 50%, #7f2d2d);
+    background-image: url(static/styles/assets/icons/Header-Subscriptions-new.svg), linear-gradient(270deg, #252525, #252525 50%, #e35151 0, #7f2d2d)
 }
 #userinfo_major li {
     display: inline-block
@@ -1767,22 +1767,22 @@ strong.mature + strong + br + a {
     transition: background-color .15s ease-in-out
 }
 #stats_seeding {
-    background-image: url(../assets/icons/Stats-Seeded.svg)
+    background-image: url(static/styles/assets/icons/Stats-Seeded.svg)
 }
 #stats_leeching {
-    background-image: url(../assets/icons/Stats-Downloaded.svg)
+    background-image: url(static/styles/assets/icons/Stats-Downloaded.svg)
 }
 #stats_required {
-    background-image: url(../assets/icons/Stats-Ratio-required.svg)
+    background-image: url(static/styles/assets/icons/Stats-Ratio-required.svg)
 }
 #fl_tokens {
-    background-image: url(../assets/icons/Stats-token-count.svg)
+    background-image: url(static/styles/assets/icons/Stats-token-count.svg)
 }
 .my_demBuffer {
-    background-image: url(../assets/icons/Stats-Buffer.svg)
+    background-image: url(static/styles/assets/icons/Stats-Buffer.svg)
 }
 #stats_ratio {
-    background-image: url(../assets/icons/Stats-Ratio.svg)
+    background-image: url(static/styles/assets/icons/Stats-Ratio.svg)
 }
 ul#userinfo_username {
     padding-right: 10px!important;
@@ -1841,7 +1841,7 @@ ul#userinfo_username:hover li:not(#nav_userinfo):hover a {
     background-position: 0 bottom
 }
 ul#userinfo_username li#nav_userinfo a {
-    background: transparent url(../assets/icons/drop-down-3.svg) no-repeat right 8px center;
+    background: transparent url(static/styles/assets/icons/drop-down-3.svg) no-repeat right 8px center;
     background-size: 12px 12px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -1874,16 +1874,16 @@ ul#userinfo_username:hover li#nav_userinfo a {
     width: 30px
 }
 #nav_upload a {
-    background-image: url(../assets/icons/Header-Upload-torrent.svg)
+    background-image: url(static/styles/assets/icons/Header-Upload-torrent.svg)
 }
 #nav_invite a {
-    background-image: url(../assets/icons/Header-Invite.svg)
+    background-image: url(static/styles/assets/icons/Header-Invite.svg)
 }
 #nav_donate a {
-    background-image: url(../assets/icons/Header-Donate.svg)
+    background-image: url(static/styles/assets/icons/Header-Donate.svg)
 }
 #userinfo_major #nav_logchecker a {
-    background-image: url(../assets/icons/Wiki-Log.svg)
+    background-image: url(static/styles/assets/icons/Wiki-Log.svg)
 }
 #nav_donate a:hover,
 #nav_invite a:hover,
@@ -2244,13 +2244,13 @@ ul#userinfo_username:hover li#nav_userinfo a {
         width: 100%!important
     }
     #userinfo_username #nav_userinfo a {
-        background-image: url(../assets/icons/Header-Profile.svg)!important
+        background-image: url(static/styles/assets/icons/Header-Profile.svg)!important
     }
     #userinfo_username #nav_logout a {
-        background-image: url(../assets/icons/Header-Logout.svg)!important
+        background-image: url(static/styles/assets/icons/Header-Logout.svg)!important
     }
     #userinfo_username #nav_useredit a {
-        background-image: url(../assets/icons/Header-Edit-Profile.svg)!important
+        background-image: url(static/styles/assets/icons/Header-Edit-Profile.svg)!important
     }
     #userinfo_major {
         display: -webkit-box;
@@ -3390,18 +3390,18 @@ table.forum_post .colhead_dark td .post_id {
     float: left;
     margin-left: -17px;
     margin-right: 4px;
-    background-image: url(../assets/post_icons/postid-dark.png)
+    background-image: url(static/styles/assets/post_icons/postid-dark.png)
 }
 table.forum_post .colhead_dark td a[id*=quote] {
-    background-image: url(../assets/post_icons/quote-dark.png)
+    background-image: url(static/styles/assets/post_icons/quote-dark.png)
 }
 table.forum_post .colhead_dark td div[style="float: right;"]:last-of-type > a:first-of-type {
-    background-image: url(../assets/post_icons/report-dark.png)
+    background-image: url(static/styles/assets/post_icons/report-dark.png)
 }
 table.forum_post .colhead_dark td .go_to_top {
     float: right;
     margin: 0 0 0 -4px;
-    background-image: url(../assets/post_icons/top-dark.png)
+    background-image: url(static/styles/assets/post_icons/top-dark.png)
 }
 table.forum_post .colhead_dark td > div {
     cursor: auto;
@@ -3612,7 +3612,7 @@ form#poll input {
     height: 32px
 }
 .last_read a {
-    background: url(../assets/icons/Forum-Jump-to-last.svg) no-repeat 50%;
+    background: url(static/styles/assets/icons/Forum-Jump-to-last.svg) no-repeat 50%;
     background-size: 14px 14px;
     border: 0;
     display: block;
@@ -3620,7 +3620,7 @@ form#poll input {
     width: 100%
 }
 .unread_locked_sticky {
-    background-image: url(../assets/icons/Forum-Dark-Pinned-Locked.svg)
+    background-image: url(static/styles/assets/icons/Forum-Dark-Pinned-Locked.svg)
 }
 .read_locked_sticky,
 .unread_locked_sticky {
@@ -3631,10 +3631,10 @@ form#poll input {
     width: 22px
 }
 .read_locked_sticky {
-    background-image: url(../assets/icons/Forum-Dark-Pinned-Locked-Read.svg)
+    background-image: url(static/styles/assets/icons/Forum-Dark-Pinned-Locked-Read.svg)
 }
 .read_sticky {
-    background-image: url(../assets/icons/Forum-Dark-Pinned-Read.svg)
+    background-image: url(static/styles/assets/icons/Forum-Dark-Pinned-Read.svg)
 }
 .read_sticky,
 .unread_sticky {
@@ -3645,10 +3645,10 @@ form#poll input {
     width: 22px
 }
 .unread_sticky {
-    background-image: url(../assets/icons/Forum-Dark-Pinned.svg)
+    background-image: url(static/styles/assets/icons/Forum-Dark-Pinned.svg)
 }
 .unread_locked {
-    background-image: url(../assets/icons/Forum-Dark-Locked.svg)
+    background-image: url(static/styles/assets/icons/Forum-Dark-Locked.svg)
 }
 .read_locked,
 .unread_locked {
@@ -3659,10 +3659,10 @@ form#poll input {
     width: 22px
 }
 .read_locked {
-    background-image: url(../assets/icons/Forum-Dark-Locked-Read.svg)
+    background-image: url(static/styles/assets/icons/Forum-Dark-Locked-Read.svg)
 }
 .unread {
-    background-image: url(../assets/icons/Forum-Dark-Unread.svg)
+    background-image: url(static/styles/assets/icons/Forum-Dark-Unread.svg)
 }
 .read,
 .unread {
@@ -3673,7 +3673,7 @@ form#poll input {
     width: 22px
 }
 .read {
-    background-image: url(../assets/icons/Forum-Dark-Read.svg)
+    background-image: url(static/styles/assets/icons/Forum-Dark-Read.svg)
 }
 #forums .search_form .cat_list td.forum_cat {
     font-family: apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
@@ -4697,14 +4697,14 @@ span.remove_bookmark a {
     font-size: 0;
     height: 18px;
     width: 18px;
-    background-image: url(../assets/icons/bookmark_unselected-dark.svg)
+    background-image: url(static/styles/assets/icons/bookmark_unselected-dark.svg)
 }
 span.remove_bookmark a {
-    background-image: url(../assets/icons/bookmark_selected-dark.svg)
+    background-image: url(static/styles/assets/icons/bookmark_selected-dark.svg)
 }
 span.add_bookmark a:hover,
 span.remove_bookmark a:hover {
-    background-image: url(../assets/icons/bookmark_selected-dark.svg)
+    background-image: url(static/styles/assets/icons/bookmark_selected-dark.svg)
 }
 .small_upvote {
     color: #cf7856!important;
