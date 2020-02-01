@@ -3462,7 +3462,7 @@ td.avatar {
 }
 td.avatar img {
     max-height: 400px;
-    max-width: 175px!important;
+    max-width: 150px!important;
     width: unset
 }
 table.forum_post td.body {
