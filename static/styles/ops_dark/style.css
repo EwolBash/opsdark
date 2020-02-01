@@ -4076,6 +4076,15 @@ span[style*="color: red;"] a {
     margin: 35px auto;
     padding: 10px 20px
 }
+
+#user .avatar_container div {
+    width: 100%;
+}
+
+.avatar_container img {
+    max-width: 100%;
+}
+
 #reports table {
     margin: 10px auto 15px
 }
