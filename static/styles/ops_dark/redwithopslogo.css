@@ -3408,6 +3408,16 @@ table.forum_post .colhead_dark td .go_to_top {
     margin: 0 0 0 -4px;
     background-image: url(../assets/post_icons/top-dark.png)
 }
+.colhead_dark strong { font-weight: normal; }
+.colhead_dark a { 
+    color: #cbcbd1; }
+.colhead_dark a:hover { color: #f4f5f7; }
+.colhead_dark td div:last-of-type > a:last-of-type {
+	display: inline-block;
+	height: 38px;
+	width: 28px;
+	text-align: center;
+}
 table.forum_post .colhead_dark td > div {
     cursor: auto;
     height: 32px;
