@@ -3453,7 +3453,7 @@ table.forum_post .colhead_dark td > div {
 td.avatar {
     padding: 10px 0 10px 10px;
     text-align: center;
-    width: 150px!important;
+    width: 175px!important;
 }
 @media only screen and (max-width: 789px) {
     td.avatar {
@@ -3462,7 +3462,7 @@ td.avatar {
 }
 td.avatar img {
     max-height: 400px;
-    max-width: 175px!important;
+    max-width: 150px!important;
     width: unset
 }
 table.forum_post td.body {
