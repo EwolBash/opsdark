@@ -4072,6 +4072,11 @@ span[style*="color: red;"] a {
 #requests .search_form input[type=submit] {
     margin: 10px
 }
+#reportform {
+    margin: 35px auto;
+    padding: 10px 20px
+}
+
 #user .avatar_container div {
     width: 100%;
 }
@@ -4079,10 +4084,7 @@ span[style*="color: red;"] a {
 .avatar_container img {
     max-width: 100%;
 }
-#reportform {
-    margin: 35px auto;
-    padding: 10px 20px
-}
+
 #reports table {
     margin: 10px auto 15px
 }
