@@ -413,7 +413,7 @@ ul.thin li { margin: 0 0; padding: 0; }
 #userinfo #userinfo_minor #nav_inbox { margin-top: 28px; background-image: url('https://gazellecss.github.io/darkblue/images/pm.png'); }
 #userinfo #userinfo_minor #nav_staffinbox { background-image: url('https://gazellecss.github.io/darkblue/images/staffpm.png'); }
 #userinfo #userinfo_minor #nav_uploaded { background-image: url('https://gazellecss.github.io/darkblue/images/uploads.png'); }
-#userinfo #userinfo_minor #nav_bookmarks { position: absolute; background-image: url('images/bookmarks.png'); background-position: 0; }
+#userinfo #userinfo_minor #nav_bookmarks { position: absolute; background-image: url('https://gazellecss.github.io/darkblue/images/bookmarks.png'); background-position: 0; }
 #userinfo #userinfo_minor #nav_notifications { background-image: url('https://gazellecss.github.io/darkblue/images/noti.png'); }
 #userinfo #userinfo_minor #nav_subscriptions { background-image: url('https://gazellecss.github.io/darkblue/images/sub.png'); }
 #userinfo #userinfo_minor #nav_friends { background-image: url('https://gazellecss.github.io/darkblue/images/friends.png'); }
