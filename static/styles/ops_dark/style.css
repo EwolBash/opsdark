@@ -1529,7 +1529,7 @@ strong.mature + strong + br + a {
     order: 1;
     padding: 0 5px;
     text-align: center;
-    z-index: 10;
+    z-index: 12;
     background: 0e0f11;
     border-bottom: 1px solid #28292a;
     -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, .2);
