@@ -246,7 +246,7 @@ table.forum_post .colhead_dark td {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
     font-size: 1em;
     line-height: 32px;
-    padding: 0 0 0 5px;
+    padding: 0 0 0 15px;
     vertical-align: middle;
     background: #0e0f11;
     background: -webkit-linear-gradient(top, #271818, ##0e0f11);
