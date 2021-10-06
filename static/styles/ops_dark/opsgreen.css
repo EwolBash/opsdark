@@ -248,6 +248,8 @@ table.forum_post .colhead_dark td {
     line-height: 32px;
     padding: 0 0 0 15px;
     vertical-align: middle;
+    position: relative !important;
+    z-index: 5000;
     background: #0e0f11;
     background: -webkit-linear-gradient(top, #271818, ##0e0f11);
     background: -o-linear-gradient(top, #271818 0, #0e0f11 100%);
