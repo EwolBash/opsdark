@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 613.8 613.8"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="Removeblue.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.3229065"
+     inkscape:cx="306.52204"
+     inkscape:cy="305.01022"
+     inkscape:window-width="1920"
+     inkscape:window-height="1121"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     fill="#e44040"
+     d="M0 252.6h613.8v108.6H0z"
+     id="path2" />
+  <path
+     style="fill:#22d1a5;stroke:#22b18d;stroke-width:0.0226773"
+     d="m 0,306.89999 v -53.6697 h 306.89999 306.9 v 53.6697 53.66971 h -306.9 H 0 Z"
+     id="path862" />
+</svg>
