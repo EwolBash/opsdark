@@ -508,6 +508,20 @@ table.staff tr:not(.colhead):not(.colhead_dark):hover td {
     width: 100%;
     background: #212324
 }
+div#flip_view_1 div#similar-artist .name {
+border: 1px solid #b9bdbd;
+background: rgba(60,60,60,.7);
+color: #b9bdbd;
+margin: 0;
+padding: 0 5px;
+}
+
+div#flip_view_1 svg a:hover {
+fill: #83e4a6;
+}
+div#flip_view_1 svg a {
+fill: #f0f0f0;
+}
 #artist_information .colhead,
 #artist_information .head,
 #similar_artist_map .colhead,
