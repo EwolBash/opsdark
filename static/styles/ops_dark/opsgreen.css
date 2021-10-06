@@ -346,7 +346,7 @@ table.staff tr.colhead td {
     padding-top: 10px;
     vertical-align: middle;
     position: relative !important;
-    z-index: 5001;
+    z-index: 5000;
     background: -webkit-gradient(linear, left bottom, left top, color-stop(0, hsla(0, 0%, 4%, .4)), to(hsla(0, 0%, 8%, .35)));
     background: -webkit-linear-gradient(bottom, hsla(0, 0%, 4%, .4), hsla(0, 0%, 8%, .35));
     background: -o-linear-gradient(bottom, hsla(0, 0%, 4%, .4) 0, hsla(0, 0%, 8%, .35) 100%);
