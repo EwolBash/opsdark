@@ -4674,7 +4674,7 @@ table.staff {
 }
 .snatched_group .show_torrents_link:after,
 .snatched_group .show_torrents_link:before {
-    background-color: #ac4444
+    background-color: #22b18d
 }
 #torrents .search_form strong {
     font-weight: 400
