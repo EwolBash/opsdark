@@ -3583,6 +3583,8 @@ table.forum_list tr:last-of-type td {
 .forum_index tr.colhead td,
 /*Forum Last post colors on the index of the forum */
 table.forum_list tr.colhead td {
+    position: relative !important;
+    z-index: 5000;
     padding-left: 8px;
     padding-right: 25px;
     color: #22b18d;
