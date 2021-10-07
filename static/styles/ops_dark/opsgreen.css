@@ -3841,10 +3841,10 @@ li.graph {
     height: 14px;
     overflow: hidden;
     position: relative;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#401a1a), to(#501414));
-    background-image: -webkit-linear-gradient(top, #401a1a, #501414);
-    background-image: -o-linear-gradient(top, #401a1a, #501414);
-    background-image: linear-gradient(180deg, #401a1a, #501414)
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#22d1a5), to(#22d1a5));
+    background-image: -webkit-linear-gradient(top, #22d1a5, #22d1a5);
+    background-image: -o-linear-gradient(top, #22d1a5, #22d1a5);
+    background-image: linear-gradient(180deg, #175b4a69, #22b18d)
 }
 .center_poll,
 .center_poll:after {
