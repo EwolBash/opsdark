@@ -3265,7 +3265,7 @@ ul.collage_images li {
     width: 20%
 }
 ul.collage_images li:not([class^=image_group]) {
-    height: 0;
+    height: 100%;
     padding: 0
 }
 ul.collage_images li:before {
