@@ -3239,7 +3239,7 @@ ul#userinfo_username:hover li#nav_userinfo a {
 ul.collage_images {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display:flex !important;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: start;
