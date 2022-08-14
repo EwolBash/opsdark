@@ -1281,7 +1281,7 @@ a.vote_tag_up:hover {
 .colhead a:hover,
 .sidebar .colhead_dark a:hover,
 .sidebar .head a:hover {
-    color: #bd8282
+    color: #22b18d
 }
 #artist #discog_table > .center a,
 #artist .header > .linkbox a,
@@ -5014,6 +5014,9 @@ span.remove_bookmark a:hover {
     text-align: center;
     width: 100%!important
 }
+#user table.recent:nth-of-type(3) tr:nth-of-type(2) td {
+padding-bottom:0 !important;
+}
 #user table.recent img,
 #user table.recent tr:nth-of-type(2) a {
     -webkit-box-sizing: border-box;
@@ -5036,7 +5039,7 @@ span.remove_bookmark a:hover {
     padding: 2%
 }
 #user table.recent img:hover {
-    background: #303234;
+    background: #22b18d;
     -webkit-box-shadow: 0 0 6px -2px rgba(235, 245, 20, 0);
     box-shadow: 0 0 6px -2px rgba(235, 245, 20, 0)
 }
