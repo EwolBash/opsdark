@@ -3422,18 +3422,18 @@ table.forum_post .colhead_dark td .post_id {
     float: left;
     margin-left: -17px;
     margin-right: 4px;
-    background-image: url(../assets/post_icons/postid-dark.png)
+    background-image: url(../assets/post_icons/postid-opsgreen.png)
 }
 table.forum_post .colhead_dark td a[id*=quote] {
-    background-image: url(../assets/post_icons/quote-dark.png)
+    background-image: url(../assets/post_icons/quote-opsgreen.png)
 }
 table.forum_post .colhead_dark td div[style="float: right;"]:last-of-type > a:first-of-type {
-    background-image: url(../assets/post_icons/report-dark.png)
+    background-image: url(../assets/post_icons/report-opsgreen.png)
 }
 table.forum_post .colhead_dark td .go_to_top {
     float: right;
     margin: 0 0 0 -4px;
-    background-image: url(../assets/post_icons/top-dark.png)
+    background-image: url(../assets/post_icons/top-opsgreen.png)
 }
 .colhead_dark strong { font-weight: normal; }
 .colhead_dark a { 
