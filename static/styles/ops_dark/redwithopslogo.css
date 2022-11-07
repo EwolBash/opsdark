@@ -3300,6 +3300,18 @@ ul.collage_images li a span {
 #collage .linkbox br + br {
     display: none
 }
+.linkbox>span.add_bookmark, .linkbox>span.remove_bookmark {
+  float: none;
+  border: none;
+  background: none;
+}
+
+.linkbox>span.add_bookmark a, .linkbox>span.remove_bookmark a {
+  font-size: 13px;
+  height: auto;
+  width: auto;
+  background: none !important;
+}
 #collage .discog strong {
     font-size: 1.15em;
     font-weight: 400;
