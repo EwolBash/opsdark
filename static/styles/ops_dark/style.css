@@ -4682,6 +4682,18 @@ table.staff {
 .snatched_group .show_torrents_link:before {
     background-color: #ac4444
 }
+.linkbox>span.add_bookmark, .linkbox>span.remove_bookmark {
+  float: none;
+  border: none;
+  background: none;
+}
+
+.linkbox>span.add_bookmark a, .linkbox>span.remove_bookmark a {
+  font-size: 13px;
+  height: auto;
+  width: auto;
+  background: none !important;
+}
 #torrents .search_form strong {
     font-weight: 400
 }
