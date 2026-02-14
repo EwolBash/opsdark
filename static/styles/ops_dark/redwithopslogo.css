@@ -4799,7 +4799,8 @@ span.remove_bookmark a:hover {
     border-radius: 3px;
     margin-top: 2px;
     white-space: normal;
-    display: inline-block
+    display: block;
+    width: fit-content  /* Only as wide as content */
 }
 .tags a {
     border-radius: 3px;
