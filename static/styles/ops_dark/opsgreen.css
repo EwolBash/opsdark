@@ -4810,7 +4810,7 @@ span.remove_bookmark a:hover {
     padding: 3px 6px;
     visibility: visible;
     margin-bottom: -1px;
-    background-color: rgba(34, 177, 141, 0.15);
+    background-color: transparent; 
     border-radius: 3px;
     margin-top: 2px;
     white-space: normal;
