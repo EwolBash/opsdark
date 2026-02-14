@@ -4065,6 +4065,7 @@ span[style*="color: red;"] a {
 }
 .request_table td {
     text-align: left
+	white-space: nowrap
 }
 .request_table strong {
     font-weight: 400
@@ -4788,9 +4789,14 @@ span.remove_bookmark a:hover {
 .tags {
     font-size: 12px;
     line-height: normal;
-    padding: 2px 0 0;
-    visibility: hidden;
-    margin-bottom: -1px
+    padding: 3px 6px;
+    visibility: visible;
+    margin-bottom: -1px;
+    background-color: rgba(227, 81, 81, 0.15);  /* Red tint using #e35151 */
+    border-radius: 3px;
+    margin-top: 2px;
+    white-space: normal;
+    display: inline-block
 }
 .tags a {
     border-radius: 3px;
