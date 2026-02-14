@@ -4077,6 +4077,7 @@ span[style*="color: red;"] a {
 }
 .request_table td {
     text-align: left
+	white-space: nowrap
 }
 .request_table strong {
     font-weight: 400
@@ -4803,9 +4804,14 @@ span.remove_bookmark a:hover {
 .tags {
     font-size: 12px;
     line-height: normal;
-    padding: 2px 0 0;
-    visibility: hidden;
-    margin-bottom: -1px
+    padding: 3px 6px;  /* Updated padding */
+    visibility: visible;  /* Changed from hidden */
+    margin-bottom: -1px;
+    background-color: rgba(34, 177, 141, 0.15);  /* Green tint */
+    border-radius: 3px;  /* Rounded corners */
+    margin-top: 2px;  /* Space above tags */
+    white-space: normal;  /* Allow tags to wrap */
+    display: block  /* Block display */
 }
 .tags a {
     border-radius: 3px;
