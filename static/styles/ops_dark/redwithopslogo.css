@@ -5270,3 +5270,76 @@ ol.navigation_list li li {
 #wiki .create_form td:first-of-type strong {
     font-weight: 400
 }
+/* Container: flex with wrapping, zero font size kills the &nbsp; spaces */
+#categories td:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;        /* vertical alignment for all items */
+    font-size: 0;                /* collapses &nbsp; into zero width */
+    margin: 10px 0;              /* optional breathing room */
+}
+
+/* Reset font size for labels and links */
+#categories .cat-choice,
+#categories td:last-child a {
+    font-size: 14px;             /* your standard font size */
+}
+
+/* Each category label: align checkbox and text */
+#categories .cat-choice {
+    display: inline-flex;
+    align-items: center;         /* perfectly centers checkbox with text */
+    gap: 6px;                    /* space between checkbox and label */
+    white-space: nowrap;         /* keep label text on one line */
+    margin-right: 24px;          /* horizontal space between items */
+    line-height: 1.4;            /* consistent line height */
+}
+
+/* Remove default checkbox margins */
+#categories .cat-choice input[type="checkbox"] {
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+
+/* Force the emoji links onto a new line */
+#categories td:last-child::after {
+    content: '';
+    width: 100%;                 /* takes full width, forces wrap */
+    order: 1;                    /* place after all labels */
+    height: 0;
+}
+
+/* Style the emoji links */
+#categories td:last-child a {
+    order: 1;                    /* appear after the pseudo‑element */
+    font-size: 20px;              /* bigger emojis */
+    margin-right: 12px;           /* space between them */
+    text-decoration: none;
+    line-height: 1;
+}
+
+/* Remove right margin from the last link */
+#categories td:last-child a:last-child {
+    margin-right: 0;
+}
+#categories td:last-child .cat-choice:nth-child(8) {
+    position: relative;
+    left: 6px;   /* moves Personal 2px to the right */
+}
+
+#categories td:last-child .cat-choice:nth-child(9) {
+    position: relative;
+    left: -5px;  /* moves Series 1px to the left */
+}
+/* Move Charts (3rd element child) left by 2px */
+#categories td:last-child .cat-choice:nth-child(3) {
+    position: relative;
+    left: -11px;   /* negative = left */
+}
+
+/* Move Theme (11th element child) left by 2px */
+#categories td:last-child .cat-choice:nth-child(11) {
+    position: relative;
+    left: -18px;
+}
