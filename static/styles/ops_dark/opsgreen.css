@@ -4804,14 +4804,15 @@ span.remove_bookmark a:hover {
 .tags {
     font-size: 12px;
     line-height: normal;
-    padding: 3px 6px;  /* Updated padding */
-    visibility: visible;  /* Changed from hidden */
+    padding: 3px 6px;
+    visibility: visible;
     margin-bottom: -1px;
-    background-color: rgba(34, 177, 141, 0.15);  /* Green tint */
-    border-radius: 3px;  /* Rounded corners */
-    margin-top: 2px;  /* Space above tags */
-    white-space: normal;  /* Allow tags to wrap */
-    display: block  /* Block display */
+    background-color: rgba(34, 177, 141, 0.15);
+    border-radius: 3px;
+    margin-top: 2px;
+    white-space: normal;
+    display: block;
+    width: fit-content  /* Only as wide as content */
 }
 .tags a {
     border-radius: 3px;
