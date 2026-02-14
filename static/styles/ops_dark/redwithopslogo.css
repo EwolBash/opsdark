@@ -595,6 +595,9 @@ fill: #f0f0f0;
     position: absolute;
     right: 30px
 }
+#torrents .edit_form input[type=submit] {
+    position: static;
+}
 html {
     font-size: 13px
 }
