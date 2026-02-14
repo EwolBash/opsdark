@@ -4067,8 +4067,8 @@ span[style*="color: red;"] a {
     color: rgba(255, 220, 100, .6)
 }
 .request_table td {
-    text-align: left
-	white-space: nowrap
+    text-align: left;
+	white-space: nowrap;
 }
 .request_table strong {
     font-weight: 400
