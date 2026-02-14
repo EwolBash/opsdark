@@ -4802,6 +4802,9 @@ span.remove_bookmark a:hover {
     display: block;
     width: fit-content  /* Only as wide as content */
 }
+.request_table .tags {
+    background-color: rgba(227, 81, 81, 0.15);  
+}
 .tags a {
     border-radius: 3px;
     display: inline-block;
