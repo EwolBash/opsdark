@@ -5347,22 +5347,22 @@ ol.navigation_list li li {
 /* New artist autocomplete menu. testing */
 /* Hide the entire menu when not shown */
 ul.autocomplete-menu:not(.show) {
-    opacity: 0 !important;
+    visibility: hidden !important;
     pointer-events: none !important;
-    border: none !important;
 }
 
-/* When shown - restore */
+/* When shown - restore visibility */
 ul.autocomplete-menu.show {
-    opacity: 1 !important;
+    visibility: visible !important;
     pointer-events: auto !important;
     background-color: #101010 !important;
     border: 1px solid #333 !important;
 }
 
-/* Hide children when not shown */
-ul.autocomplete-menu:not(.show) * {
-    opacity: 0 !important;
+/* Ensure children are visible when parent is shown */
+ul.autocomplete-menu.show * {
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 /* Layout when shown */
@@ -5384,8 +5384,6 @@ ul.autocomplete-menu.show .cae-img img {
     display: block !important;
     width: 150px !important;
     height: auto !important;
-    max-height: 150px !important;
-    object-fit: contain !important;
 }
 
 /* Text styling */
@@ -5398,19 +5396,12 @@ ul.autocomplete-menu.show .cae-name {
 
 ul.autocomplete-menu.show .cae-name a {
     color: #e35151 !important;
-    text-decoration: none !important;
 }
 
 /* Tags */
 ul.autocomplete-menu.show .cae-tag {
     display: block !important;
     margin: 5px 0 !important;
-}
-
-ul.autocomplete-menu.show .cae-tag .tags {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    gap: 5px !important;
 }
 
 ul.autocomplete-menu.show .cae-tag-entry {
@@ -5427,7 +5418,6 @@ ul.autocomplete-menu.show .cae-l-grp,
 ul.autocomplete-menu.show .cae-l-sna,
 ul.autocomplete-menu.show .cae-l-dcg,
 ul.autocomplete-menu.show .cae-l-see {
-    display: inline !important;
     color: #888 !important;
     font-size: 0.9em !important;
 }
@@ -5435,7 +5425,6 @@ ul.autocomplete-menu.show .cae-l-see {
 ul.autocomplete-menu.show .cae-v-grp,
 ul.autocomplete-menu.show .cae-v-sna,
 ul.autocomplete-menu.show .cae-v-see {
-    display: inline !important;
     color: #e35151 !important;
     font-size: 0.9em !important;
     margin-right: 15px !important;
@@ -5444,25 +5433,9 @@ ul.autocomplete-menu.show .cae-v-see {
 /* Bio */
 ul.autocomplete-menu.show .cae-bio {
     display: block !important;
-    grid-column: 2 !important;
     color: #aaa !important;
     font-size: 0.9em !important;
     line-height: 1.4 !important;
     max-height: 100px !important;
     overflow: hidden !important;
-}
-
-ul.autocomplete-menu.show .cae-bio-content {
-    color: #aaa !important;
-}
-
-/* Alias text */
-ul.autocomplete-menu.show .cae-artist-text {
-    display: block !important;
-    color: #888 !important;
-    font-size: 0.85em !important;
-}
-
-ul.autocomplete-menu.show .cae-primary-name {
-    color: #e35151 !important;
 }
