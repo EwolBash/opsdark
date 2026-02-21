@@ -5363,3 +5363,117 @@ ol.navigation_list li li {
     position: relative;
     left: -18px;
 }
+
+/* New artist autocomplete menu. testing */
+/* Hide the entire menu when not shown */
+ul.autocomplete-menu:not(.show) {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* When shown - restore visibility */
+ul.autocomplete-menu.show {
+    visibility: visible;
+    pointer-events: auto;
+    background-color: #101010;
+    border: 1px solid #333;
+}
+
+/* Ensure children are visible when parent is shown */
+ul.autocomplete-menu.show * {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Layout when shown */
+ul.autocomplete-menu.show .collage-artist-entry {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
+    padding: 10px;
+    background-color: #101010;
+}
+
+/* Images */
+ul.autocomplete-menu.show .cae-img {
+    display: block;
+    grid-row: span 4;
+}
+
+ul.autocomplete-menu.show .cae-img img {
+    display: block;
+    width: 150px;
+    height: auto;
+}
+
+/* Text styling */
+ul.autocomplete-menu.show .cae-name {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+ul.autocomplete-menu.show .cae-name a {
+    color: #1ea583;
+}
+
+/* Tags */
+ul.autocomplete-menu.show .cae-tag {
+    display: block;
+    margin: 5px 0;
+}
+
+ul.autocomplete-menu.show .cae-tag-entry {
+    display: inline-block;
+    background-color: #1ea5837d;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.85em;
+}
+
+/* Stats */
+ul.autocomplete-menu.show .cae-l-grp,
+ul.autocomplete-menu.show .cae-l-sna,
+ul.autocomplete-menu.show .cae-l-dcg,
+ul.autocomplete-menu.show .cae-l-see {
+    color: #888;
+    font-size: 0.9em;
+}
+
+ul.autocomplete-menu.show .cae-v-grp,
+ul.autocomplete-menu.show .cae-v-sna,
+ul.autocomplete-menu.show .cae-v-see {
+    color: #1ea583;
+    font-size: 0.9em;
+    margin-right: 15px;
+}
+
+/* Bio */
+ul.autocomplete-menu.show .cae-bio {
+    display: block;
+    color: #aaa;
+    font-size: 0.9em;
+    line-height: 1.4;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+/* Hide tags when menu is not shown */
+ul.autocomplete-menu:not(.show) .cae-tag,
+ul.autocomplete-menu:not(.show) .cae-tag-entry,
+ul.autocomplete-menu:not(.show) .tags {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* Remove transition entirely for instant hide/show */
+ul.autocomplete-menu,
+ul.autocomplete-menu * {
+    transition: none;
+}
+
+ul.autocomplete-menu.show .cae-bio-content {
+    color: #aaa;
+}
