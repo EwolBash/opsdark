@@ -5347,70 +5347,70 @@ ol.navigation_list li li {
 /* New artist autocomplete menu. testing */
 /* Hide the entire menu when not shown */
 ul.autocomplete-menu:not(.show) {
-    visibility: hidden !important;
-    pointer-events: none !important;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 /* When shown - restore visibility */
 ul.autocomplete-menu.show {
-    visibility: visible !important;
-    pointer-events: auto !important;
-    background-color: #101010 !important;
-    border: 1px solid #333 !important;
+    visibility: visible;
+    pointer-events: auto;
+    background-color: #101010;
+    border: 1px solid #333;
 }
 
 /* Ensure children are visible when parent is shown */
 ul.autocomplete-menu.show * {
-    visibility: visible !important;
-    opacity: 1 !important;
+    visibility: visible;
+    opacity: 1;
 }
 
 /* Layout when shown */
 ul.autocomplete-menu.show .collage-artist-entry {
-    display: grid !important;
-    grid-template-columns: 150px 1fr !important;
-    gap: 10px !important;
-    padding: 10px !important;
-    background-color: #101010 !important;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
+    padding: 10px;
+    background-color: #101010;
 }
 
 /* Images */
 ul.autocomplete-menu.show .cae-img {
-    display: block !important;
-    grid-row: span 4 !important;
+    display: block;
+    grid-row: span 4;
 }
 
 ul.autocomplete-menu.show .cae-img img {
-    display: block !important;
-    width: 150px !important;
-    height: auto !important;
+    display: block;
+    width: 150px;
+    height: auto;
 }
 
 /* Text styling */
 ul.autocomplete-menu.show .cae-name {
-    display: block !important;
-    font-size: 1.2em !important;
-    font-weight: bold !important;
-    color: #fff !important;
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
 }
 
 ul.autocomplete-menu.show .cae-name a {
-    color: #e35151 !important;
+    color: #e35151;
 }
 
 /* Tags */
 ul.autocomplete-menu.show .cae-tag {
-    display: block !important;
-    margin: 5px 0 !important;
+    display: block;
+    margin: 5px 0;
 }
 
 ul.autocomplete-menu.show .cae-tag-entry {
-    display: inline-block !important;
-    background-color: rgba(227, 81, 81, 0.2) !important;
-    color: #fff !important;
-    padding: 2px 6px !important;
-    border-radius: 3px !important;
-    font-size: 0.85em !important;
+    display: inline-block;
+    background-color: rgba(227, 81, 81, 0.2);
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 0.85em;
 }
 
 /* Stats */
@@ -5418,43 +5418,42 @@ ul.autocomplete-menu.show .cae-l-grp,
 ul.autocomplete-menu.show .cae-l-sna,
 ul.autocomplete-menu.show .cae-l-dcg,
 ul.autocomplete-menu.show .cae-l-see {
-    color: #888 !important;
-    font-size: 0.9em !important;
+    color: #888;
+    font-size: 0.9em;
 }
 
 ul.autocomplete-menu.show .cae-v-grp,
 ul.autocomplete-menu.show .cae-v-sna,
 ul.autocomplete-menu.show .cae-v-see {
-    color: #e35151 !important;
-    font-size: 0.9em !important;
-    margin-right: 15px !important;
+    color: #e35151;
+    font-size: 0.9em;
+    margin-right: 15px;
 }
 
 /* Bio */
 ul.autocomplete-menu.show .cae-bio {
-    display: block !important;
-    color: #aaa !important;
-    font-size: 0.9em !important;
-    line-height: 1.4 !important;
-    max-height: 100px !important;
-    overflow: hidden !important;
+    display: block;
+    color: #aaa;
+    font-size: 0.9em;
+    line-height: 1.4;
+    max-height: 100px;
+    overflow: hidden;
 }
 
 /* Hide tags when menu is not shown */
 ul.autocomplete-menu:not(.show) .cae-tag,
 ul.autocomplete-menu:not(.show) .cae-tag-entry,
 ul.autocomplete-menu:not(.show) .tags {
-    visibility: hidden !important;
-    opacity: 0 !important;
+    visibility: hidden;
+    opacity: 0;
 }
 
 /* Remove transition entirely for instant hide/show */
 ul.autocomplete-menu,
 ul.autocomplete-menu * {
-    transition: none !important;
+    transition: none;
 }
 
 ul.autocomplete-menu.show .cae-bio-content {
-    color: #aaa !important;
+    color: #aaa;
 }
-
