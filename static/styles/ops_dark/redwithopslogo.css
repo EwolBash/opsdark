@@ -5345,24 +5345,43 @@ ol.navigation_list li li {
 }
 
 /* New artist autocomplete menu. testing */
+body:has(ul.autocomplete-menu.show) .autocomplete-menu,
 ul.autocomplete-menu.show {
     background-color: #101010 !important;
     border-color: #333 !important;
 }
 
+/* Layout - copy from official but with !important */
+body:has(ul.autocomplete-menu.show) .autocomplete-menu .collage-artist-entry,
 ul.autocomplete-menu.show .collage-artist-entry {
+    display: grid !important;
+    grid-template-columns: 150px 1fr !important;
+    gap: 10px !important;
+    padding: 10px !important;
     background-color: #101010 !important;
 }
 
+body:has(ul.autocomplete-menu.show) .autocomplete-menu .cae-img img,
+ul.autocomplete-menu.show .cae-img img {
+    width: 150px !important;
+    height: auto !important;
+}
+
+/* Colors */
+body:has(ul.autocomplete-menu.show) .autocomplete-menu .cae-name a,
 ul.autocomplete-menu.show .cae-name a {
     color: #e35151 !important;
 }
 
+body:has(ul.autocomplete-menu.show) .autocomplete-menu .cae-tag-entry,
 ul.autocomplete-menu.show .cae-tag-entry {
     background-color: rgba(227, 81, 81, 0.2) !important;
     color: #fff !important;
 }
 
+body:has(ul.autocomplete-menu.show) .autocomplete-menu .cae-v-grp,
+body:has(ul.autocomplete-menu.show) .autocomplete-menu .cae-v-sna,
+body:has(ul.autocomplete-menu.show) .autocomplete-menu .cae-v-see,
 ul.autocomplete-menu.show .cae-v-grp,
 ul.autocomplete-menu.show .cae-v-sna,
 ul.autocomplete-menu.show .cae-v-see {
