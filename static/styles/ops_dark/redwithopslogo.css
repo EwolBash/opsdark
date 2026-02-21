@@ -5453,3 +5453,8 @@ ul.autocomplete-menu,
 ul.autocomplete-menu * {
     transition: none !important;
 }
+
+ul.autocomplete-menu.show .cae-bio-content {
+    color: #aaa !important;
+}
+
