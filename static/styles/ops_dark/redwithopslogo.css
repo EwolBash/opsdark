@@ -5345,105 +5345,26 @@ ol.navigation_list li li {
 }
 
 /* New artist autocomplete menu. testing */
-.autocomplete-menu {
-    visibility: visible;
-    opacity: 1;
-    background-color: #101010;
-    color: #ccc;
+ul.autocomplete-menu.show {
+    background-color: #101010 !important;
+    border-color: #333 !important;
 }
 
-.autocomplete-menu li,
-.autocomplete-menu .dropdown-item {
-    visibility: visible;
-    opacity: 1;
-    background-color: #101010;
-    border-bottom: 1px solid #222;
+ul.autocomplete-menu.show .collage-artist-entry {
+    background-color: #101010 !important;
 }
 
-.autocomplete-menu .collage-artist-entry {
-    visibility: visible;
-    background-color: #101010;
-    color: #ccc;
-    /* Let grid come from default or JS */
+ul.autocomplete-menu.show .cae-name a {
+    color: #e35151 !important;
 }
 
-.autocomplete-menu .cae-img {
-    visibility: visible;
-    opacity: 1;
+ul.autocomplete-menu.show .cae-tag-entry {
+    background-color: rgba(227, 81, 81, 0.2) !important;
+    color: #fff !important;
 }
 
-.autocomplete-menu .cae-img img {
-    visibility: visible;
-    opacity: 1;
-    width: 150px;
-    height: auto;
-}
-
-.autocomplete-menu .cae-name {
-    visibility: visible;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #fff;
-}
-
-
-.autocomplete-menu .cae-name a {
-    color: #e35151;
-    text-decoration: none;
-}
-
-.autocomplete-menu .cae-tag {
-    visibility: visible;
-    margin: 5px 0;
-}
-
-.autocomplete-menu .cae-tag .tags {
-    visibility: visible;
-}
-
-.autocomplete-menu .cae-tag-entry {
-    visibility: visible;
-    background-color: rgba(227, 81, 81, 0.2);
-    color: #fff;
-    padding: 2px 6px;
-    border-radius: 3px;
-    font-size: 0.85em;
-}
-
-.autocomplete-menu .cae-l-grp,
-.autocomplete-menu .cae-l-sna,
-.autocomplete-menu .cae-l-dcg,
-.autocomplete-menu .cae-l-see {
-    color: #888;
-    font-size: 0.9em;
-}
-
-.autocomplete-menu .cae-v-grp,
-.autocomplete-menu .cae-v-sna,
-.autocomplete-menu .cae-v-see {
-    color: #e35151;
-    font-size: 0.9em;
-    margin-right: 15px;
-}
-
-.autocomplete-menu .cae-bio {
-    visibility: visible;
-    color: #aaa;
-    font-size: 0.9em;
-    line-height: 1.4;
-    max-height: 100px;
-    overflow: hidden;
-}
-
-.autocomplete-menu .cae-bio-content {
-    color: #aaa;
-}
-
-.autocomplete-menu .cae-artist-text {
-    color: #888;
-    font-size: 0.85em;
-}
-
-.autocomplete-menu .cae-primary-name {
-    color: #e35151;
+ul.autocomplete-menu.show .cae-v-grp,
+ul.autocomplete-menu.show .cae-v-sna,
+ul.autocomplete-menu.show .cae-v-see {
+    color: #e35151 !important;
 }
