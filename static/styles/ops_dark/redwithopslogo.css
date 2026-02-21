@@ -5439,3 +5439,11 @@ ul.autocomplete-menu.show .cae-bio {
     max-height: 100px !important;
     overflow: hidden !important;
 }
+
+/* Hide tags when menu is not shown */
+ul.autocomplete-menu:not(.show) .cae-tag,
+ul.autocomplete-menu:not(.show) .cae-tag-entry,
+ul.autocomplete-menu:not(.show) .tags {
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
