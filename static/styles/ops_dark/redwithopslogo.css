@@ -5447,3 +5447,9 @@ ul.autocomplete-menu:not(.show) .tags {
     visibility: hidden !important;
     opacity: 0 !important;
 }
+
+/* Remove transition entirely for instant hide/show */
+ul.autocomplete-menu,
+ul.autocomplete-menu * {
+    transition: none !important;
+}
