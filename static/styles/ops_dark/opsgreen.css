@@ -5369,6 +5369,8 @@ ol.navigation_list li li {
 ul.autocomplete-menu:not(.show) {
     visibility: hidden;
     pointer-events: none;
+	overflow: hidden !important;
+    max-height: 0 !important;
 }
 
 /* When shown - restore visibility */
@@ -5377,6 +5379,15 @@ ul.autocomplete-menu.show {
     pointer-events: auto;
     background-color: #101010;
     border: 1px solid #333;
+	position: relative;
+    z-index: 7500;
+}
+
+/* Ensure search input stays above */
+#searchbar_artists,
+#artistsearch {
+    position: relative;
+    z-index: 7501;
 }
 
 /* Ensure children are visible when parent is shown */
@@ -5476,15 +5487,4 @@ ul.autocomplete-menu * {
 
 ul.autocomplete-menu.show .cae-bio-content {
     color: #aaa;
-}
-
-ul.autocomplete-menu.show {
-    position: relative;
-    z-index: 9999;
-}
-
-#searchbar_artists,
-#artistsearch {
-    position: relative;
-    z-index: 10000;
 }
