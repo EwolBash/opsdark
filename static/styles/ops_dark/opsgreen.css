@@ -5477,3 +5477,14 @@ ul.autocomplete-menu * {
 ul.autocomplete-menu.show .cae-bio-content {
     color: #aaa;
 }
+
+ul.autocomplete-menu.show {
+    position: relative;
+    z-index: 9999;
+}
+
+#searchbar_artists,
+#artistsearch {
+    position: relative;
+    z-index: 10000;
+}
