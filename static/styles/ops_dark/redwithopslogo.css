@@ -4393,7 +4393,7 @@ table.staff {
     color: #aaa!important
 }
 .group_torrent td:first-of-type span {
-    visibility: hidden
+    visibility: visible
 }
 .group_torrent td:first-of-type span a {
     visibility: visible
