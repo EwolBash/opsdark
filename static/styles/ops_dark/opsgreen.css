@@ -5489,9 +5489,29 @@ ul.autocomplete-menu.show .cae-bio-content {
     color: #aaa;
 }
 
-/* Reduce spacing for tags in torrent tables */
-.torrent_table .tags,
-.group_torrent .tags {
-    margin-top: 0;
-    padding: 2px 0;
+/* Testing tag fix */
+/* Only target tags inside the torrent table */
+.torrent_table .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;                
+  font-size: 0;                 
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.torrent_table .tags a {
+  background-color: #1a2422;    
+  color: #ccc;
+  font-size: 0.95rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0;             
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.1s linear; 
+}
+
+.torrent_table .tags a:hover {
+  color: #22d1a5;               
 }
