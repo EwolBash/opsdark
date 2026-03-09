@@ -1557,7 +1557,7 @@ strong.mature + strong + br + a {
     order: 1;
     padding: 0 5px;
     text-align: center;
-    z-index: 12;
+    z-index: 6000;
     background: 0e0f11;
     border-bottom: 1px solid #28292a;
     -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, .2);
@@ -5487,4 +5487,11 @@ ul.autocomplete-menu * {
 
 ul.autocomplete-menu.show .cae-bio-content {
     color: #aaa;
+}
+
+/* Reduce spacing for tags in torrent tables */
+.torrent_table .tags,
+.group_torrent .tags {
+    margin-top: 0;
+    padding: 2px 0;
 }
