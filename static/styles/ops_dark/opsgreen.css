@@ -5489,6 +5489,11 @@ ul.autocomplete-menu.show .cae-bio-content {
     color: #aaa;
 }
 
+/* Remove the blue background on hover for autocomplete entries */
+ul.autocomplete-menu .collage-artist-entry.box2:hover {
+  background-color: #2a2a2a !important;  /* dark grey */
+}
+
 /* Testing tag fix */
 /* Only target tags inside the torrent table */
 .torrent_table .tags {
