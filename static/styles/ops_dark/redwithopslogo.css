@@ -1551,7 +1551,7 @@ strong.mature + strong + br + a {
     order: 1;
     padding: 0 5px;
     text-align: center;
-    z-index: 12;
+    z-index: 6000;
     background: #121416;
     border-bottom: 1px solid #28292a;
     -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, .2);
@@ -5478,4 +5478,31 @@ ul.autocomplete-menu.show {
 #artistsearch {
     position: relative;
     z-index: 10000;
+}
+
+/* Testing tag fix */
+/* Only target tags inside the torrent table */
+.torrent_table .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;                
+  font-size: 0;                 
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.torrent_table .tags a {
+  background-color: #222324;    
+  color: #ccc;
+  font-size: 0.95rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0;             
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.1s linear; 
+}
+
+.torrent_table .tags a:hover {
+  color: #be4949;               
 }
