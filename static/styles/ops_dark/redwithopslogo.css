@@ -5485,6 +5485,22 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
   background-color: #2a2a2a !important;  /* dark grey */
 }
 
+/* Base state for all autocomplete links */
+.autocomplete-menu a[href*="artist.php"],
+.autocomplete-menu a[href*="discogs.com"] {
+    -webkit-text-fill-color: #e35151 !important;
+    color: #e35151 !important;
+    text-decoration: none !important;
+    transition: color 0.1s ease;
+}
+
+/* Hover state */
+.autocomplete-menu a[href*="artist.php"]:hover,
+.autocomplete-menu a[href*="discogs.com"]:hover {
+    -webkit-text-fill-color: #f58080 !important;
+    color: #f58080 !important;
+}
+
 /* Testing tag fix */
 /* Only target tags inside the torrent table */
 .torrent_table .tags {
