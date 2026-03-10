@@ -7,6 +7,10 @@ html {
 body {
     margin: 0
 }
+html, body {
+    background-color: #101010;
+    overscroll-behavior: none;
+}
 article,
 aside,
 footer,
