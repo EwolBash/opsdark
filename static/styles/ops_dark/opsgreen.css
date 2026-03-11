@@ -5580,7 +5580,8 @@ table.staff tr.rowb:hover td,
 #rules tr.rowa:hover td,
 #rules tr.rowb:hover td,
 #top10 tr.rowa:hover td,
-#top10 tr.rowb:hover td {
+#top10 tr.rowb:hover td,
+#torrents .group_torrent:hover td {
     background-color: #1a2422;
     color: #aaa
 }
