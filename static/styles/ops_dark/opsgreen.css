@@ -5552,8 +5552,16 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
 .staff th,
 .forum_post td,
 .forum_post th,
+#rules td,
+#rules th,
 .box,
 .box2 {
     background-color: #1A1C1D;
 }
 
+/* And add hover for rules table */
+#rules tr.rowa:hover td,
+#rules tr.rowb:hover td {
+    background-color: #1a2422;
+    color: #aaa
+}
