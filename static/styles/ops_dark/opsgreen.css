@@ -5560,6 +5560,8 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
 #sentbox th,
 #top10 td,
 #top10 th,
+.collage_table td,
+.collage_table th,
 .box,
 .box2 {
     background-color: #1A1C1D;
@@ -5581,7 +5583,9 @@ table.staff tr.rowb:hover td,
 #rules tr.rowb:hover td,
 #top10 tr.rowa:hover td,
 #top10 tr.rowb:hover td,
-#torrents .group_torrent:hover td {
+#torrents .group_torrent:hover td,
+.collage_table tr.rowa:hover td,
+.collage_table tr.rowb:hover td {
     background-color: #1a2422;
     color: #aaa
 }
