@@ -5577,15 +5577,9 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
 }
 
 /* Hovers */
-table.staff tr.rowa:hover td,
-table.staff tr.rowb:hover td,
-#rules tr.rowa:hover td,
-#rules tr.rowb:hover td,
-#top10 tr.rowa:hover td,
-#top10 tr.rowb:hover td,
-#torrents .group_torrent:hover td,
-.collage_table tr.rowa:hover td,
-.collage_table tr.rowb:hover td {
+/* Target all alternating rows in request tables (or any with .rowa/.rowb) */
+tr.rowa:hover td,
+tr.rowb:hover td {
     background-color: #1a2422;
-    color: #aaa
+    color: #aaa;
 }
