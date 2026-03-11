@@ -5554,6 +5554,10 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
 .forum_post th,
 #rules td,
 #rules th,
+#inbox td,
+#inbox th,
+#sentbox td,
+#sentbox th,
 .box,
 .box2 {
     background-color: #1A1C1D;
