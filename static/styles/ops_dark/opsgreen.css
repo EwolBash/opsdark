@@ -5516,7 +5516,9 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
 
 /* Testing tag fix */
 /* Only target tags inside the torrent table */
-.torrent_table .tags {
+.torrent_table .tags,
+.collage_table .tags,
+#collage .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.25rem;                
@@ -5526,7 +5528,9 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
   padding: 0;
 }
 
-.torrent_table .tags a {
+.torrent_table .tags a,
+.collage_table .tags a,
+#collage .tags a {
   background-color: #1a2422;    
   color: #ccc;
   font-size: 0.95rem;
@@ -5537,6 +5541,8 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
   transition: color 0.1s linear; 
 }
 
-.torrent_table .tags a:hover {
+.torrent_table .tags a:hover,
+.collage_table .tags a:hover,
+#collage .tags a:hover {
   color: #22d1a5;               
 }
