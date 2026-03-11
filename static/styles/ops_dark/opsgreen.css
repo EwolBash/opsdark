@@ -5565,6 +5565,15 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
     background-color: #1A1C1D;
 }
 
+/* Exclude all search forms */
+.search_form,
+.search_form td,
+.search_form th,
+.search_form .box,
+.search_form .box2 {
+    background-color: transparent !important;
+}
+
 /* Hovers */
 table.staff tr.rowa:hover td,
 table.staff tr.rowb:hover td,
