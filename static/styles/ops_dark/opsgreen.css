@@ -5578,6 +5578,7 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
 
 /* Hovers */
 /* Target all alternating rows in request tables (or any with .rowa/.rowb) */
+.group_torrent:hover td,
 tr.rowa:hover td,
 tr.rowb:hover td {
     background-color: #1a2422 !important;
