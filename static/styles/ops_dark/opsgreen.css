@@ -501,7 +501,7 @@ table.staff tr:not(.colhead):not(.colhead_dark) {
 .forum_list.border tr:not(.colhead):not(.colhead_dark):hover td,
 .wiki_log_table tr:not(.colhead):not(.colhead_dark):hover td,
 table.staff tr:not(.colhead):not(.colhead_dark):hover td {
-    background-color: #242526;
+    background-color: #1a2422;
     color: #aaa
 }
 #upload #dnulist tr:not(.colhead):not(.colhead_dark):nth-of-type(2n) td,
@@ -5546,3 +5546,14 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
 #collage .tags a:hover {
   color: #22d1a5;               
 }
+
+/* Fixing some of the odd colours */
+.staff td,
+.staff th,
+.forum_post td,
+.forum_post th,
+.box,
+.box2 {
+    background-color: #1A1C1D;
+}
+
