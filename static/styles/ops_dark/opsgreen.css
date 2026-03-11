@@ -4944,7 +4944,7 @@ span.remove_bookmark a:hover {
     margin: 5px auto 10px
 }
 #upload #dnulist tr:not(.colhead) td:first-of-type {
-    color: hsla(0, 100%, 90%, .6)
+    color: rgba(34, 177, 141, 0.6);  /* #22b18d with 60% opacity */
 }
 #upload #dnulist td {
     padding: 5px 10px;
