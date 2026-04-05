@@ -5584,3 +5584,33 @@ tr.rowb:hover td {
     background-color: #1a2422 !important;
     color: #aaa !important;
 }
+
+/* Collage page: Force bookmark and vote on same line */
+.float_right {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    float: right;
+}
+
+/* Kill the line break in collage */
+.float_right br {
+    display: none;
+}
+
+/* Keep vote inline in collage */
+.votespan {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+/* Torrents page: Fix tag alignment with overflow context */
+#torrents .group_info .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 4px;
+    overflow: hidden; /* New block formatting context */
+    width: auto;
+}
