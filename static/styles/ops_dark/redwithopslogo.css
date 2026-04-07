@@ -5554,12 +5554,13 @@ ul.autocomplete-menu .collage-artist-entry.box2:hover {
     white-space: nowrap;
 }
 
-/* Torrents page: Fix tag alignment with overflow context */
-#torrents .group_info .tags {
+/* Combined: Torrents and Artist pages tag alignment */
+#torrents .group_info .tags,
+#artist .group_info .tags {
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
     margin-top: 4px;
-    overflow: hidden; /* New block formatting context */
+    overflow: hidden;
     width: auto;
 }
