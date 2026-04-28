@@ -760,6 +760,7 @@ textarea[style*="width: 98%"] {
     width: 100%!important
 }
 .sidebar .box input[type=email],
+.sidebar .box input[type=number],
 .sidebar .box input[type=password],
 .sidebar .box input[type=search],
 .sidebar .box input[type=text],
@@ -769,6 +770,7 @@ textarea[style*="width: 98%"] {
     background-color: #18191b
 }
 input[type=email]:focus,
+input[type=number]:focus,
 input[type=password]:focus,
 input[type=search]:focus,
 input[type=text]:focus,
@@ -780,6 +782,7 @@ textarea:focus {
     border: 1px solid #197a61!important;
     color: #ccc
 }
+input[type=number]:invalid,
 input[type=password]:invalid,
 input[type=text]:invalid {
     border: 1px solid red
@@ -823,6 +826,7 @@ input[type=submit]:focus {
     color: #444
 }
 input[type=email]:disabled,
+input[type=number]:disabled,
 input[type=password]:disabled,
 input[type=search]:disabled,
 input[type=text]:disabled,
