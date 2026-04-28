@@ -727,6 +727,7 @@ input + label {
     cursor: pointer
 }
 input[type=email],
+input[type=number],
 input[type=password],
 input[type=search],
 input[type=text],
