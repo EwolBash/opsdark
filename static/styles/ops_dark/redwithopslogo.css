@@ -5003,6 +5003,13 @@ span.remove_bookmark a:hover {
 #user #profile-album img {
     max-height: 300px
 }
+/* Fix: prevent colhead from sticking while scrolling. User profile in particular */
+#user table.recent .colhead td,
+#user table.recent tr:first-of-type td {
+    position: relative;
+    top: auto;
+    transform: none;
+}
 #user table.recent tr:nth-of-type(2) td {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
