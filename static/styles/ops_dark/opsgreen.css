@@ -9,7 +9,7 @@ body {
 }
 html, body {
     background-color: #101010;
-    overscroll-behavior: none;
+    overscroll-behavior: auto;
 }
 article,
 aside,
