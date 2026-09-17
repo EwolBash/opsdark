@@ -613,7 +613,7 @@ body {
     background-color: #1a1c1d;
     background-image: url(../assets/backgrounds/background.jpg)
 }
-@media only screen and (max-width: 1px) {
+@media only screen and (max-width: 789px) {
     body {
         min-width: unset
     }
@@ -1548,13 +1548,13 @@ strong.mature + strong + br + a {
     padding: 0 5px;
     text-align: center;
     z-index: 12;
-    background: #0e0f11;
+    background: 0e0f11;
     border-bottom: 1px solid #28292a;
     -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, .2);
     box-shadow: 0 2px 4px 1px rgba(0, 0, 0, .2);
     color: #bbb
 }
-@media only screen and (max-width: 1px) {
+@media only screen and (max-width: 789px) {
     #userinfo {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1617,7 +1617,7 @@ strong.mature + strong + br + a {
     order: 0;
     z-index: 1001
 }
-@media only screen and (max-width: 1px) {
+@media only screen and (max-width: 789px) {
     #userinfo_minor {
         background: transparent url(../assets/icons/drop-down-3.svg) no-repeat left 15px center!important;
         background-size: 25%!important;
@@ -1636,7 +1636,7 @@ strong.mature + strong + br + a {
     flex: 0 0 183px;
     margin-right: 0
 }
-@media only screen and (max-width: 1px) {
+@media only screen and (max-width: 789px) {
     #userinfo_minor:hover {
         background: transparent;
         margin-top: 0;
@@ -1656,7 +1656,7 @@ strong.mature + strong + br + a {
 #userinfo_minor li:first-of-type {
     margin-top: 34px
 }
-@media only screen and (max-width: 1px) {
+@media only screen and (max-width: 789px) {
     #userinfo_minor li:first-of-type {
         margin-top: 0
     }
@@ -2205,7 +2205,7 @@ ul#userinfo_username:hover li#nav_userinfo a {
 .lightbox img {
     max-height: 100%
 }
-@media only screen and (max-width: 1px) {
+@media only screen and (max-width: 789px) {
     .post_id,
     .user_title {
         display: none!important
@@ -3483,7 +3483,7 @@ td.avatar {
     text-align: center;
     width: 175px!important
 }
-@media only screen and (max-width: 1px) {
+@media only screen and (max-width: 789px) {
     td.avatar {
         display: none!important
     }
@@ -4512,6 +4512,9 @@ table.staff {
     -webkit-transition-delay: .2s;
     -o-transition-delay: .2s;
     transition-delay: .2s;
+    -webkit-transition-timing-function: cubic-bezier;
+    -o-transition-timing-function: cubic-bezier;
+    transition-timing-function: cubic-bezier;
     z-index: 31415
 }
 .group_image:hover img {
@@ -4801,7 +4804,7 @@ span.remove_bookmark a:hover {
     background: rgba(0, 0, 0, .15);
     color: #777;
     padding: 2px 6px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .4)
+    text-shadow: 1px 1px 1px rgbga(0, 0, 0, .4)
 }
 .tags a:hover {
     background: rgba(0, 0, 0, .3);
@@ -5253,99 +5256,4 @@ ol.navigation_list li li {
 }
 #wiki .create_form td:first-of-type strong {
     font-weight: 400
-}
-
-/* ============================================================================
- * Mobile: render the DESKTOP layout, scaled to fit
- * ============================================================================
- * Instead of the stacked mobile layout, the full 950px desktop layout is
- * rendered and scaled down. On a 390px phone this takes the header from 413px
- * tall to 94px and keeps the sidebar beside the content.
- *
- * Every "@media (max-width: 789px)" block above is rewritten to
- * "(max-width: 1px)" so it never matches. That is deliberate, not a typo - it
- * disables the mobile layout without deleting ~500 lines, keeping the change
- * reviewable. The single live block below re-adds what mobile actually needs.
- * ==========================================================================*/
-@media only screen and (max-width: 789px) {
-
-    /* --- scale the 950px desktop layout to the screen --- */
-    html {
-        zoom: 0.41;                  /* fallback for older Safari */
-        zoom: calc(100vw / 950px);   /* responsive: fit any screen width */
-    }
-    body {
-        min-width: 950px;
-    }
-
-    /* --- header MENU: always-visible icon row, no hover needed ---
-     * Safari on iOS only performs tap-to-hover on genuinely clickable elements
-     * - a real link, a form control, or something with a click handler.
-     * #userinfo_minor is an inert <ul>, so the :hover dropdown can never be
-     * opened by touch there. (cursor:pointer satisfies Chrome's heuristic but
-     * not Safari's, and CSS cannot make an element clickable.) The hover
-     * trigger is therefore dropped on mobile and the links are laid out
-     * directly, so each one is tapped on its own.
-     */
-    #userinfo {
-        /* the desktop rules set no flex-wrap, so nothing can take its own row */
-        -ms-flex-wrap: wrap !important;
-        flex-wrap: wrap !important;
-        height: auto !important;
-    }
-    #userinfo_minor {
-        background-image: none !important;
-        -webkit-box-flex: 1 !important;
-        -ms-flex: 1 1 100% !important;
-        flex: 1 1 100% !important;
-        -webkit-box-ordinal-group: 0 !important;
-        -ms-flex-order: -1 !important;
-        order: -1 !important;
-        height: auto !important;
-        margin: 0 !important;
-        padding: 2px 0 !important;
-        text-align: center;
-        white-space: nowrap;
-    }
-    #userinfo_minor li,
-    #userinfo_minor li:first-of-type,
-    #userinfo_minor li:last-of-type {
-        display: inline-block !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        background: transparent !important;
-        border: 0 !important;
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-    }
-    /* fallback for any entry without icon artwork: a plain small text link */
-    #userinfo_minor li a {
-        background-color: transparent !important;
-        display: inline-block !important;
-        height: 44px !important;
-        line-height: 44px !important;
-        margin: 0 !important;
-        padding: 0 6px !important;
-        font-size: 12px;
-    }
-    /* entries that do have icon artwork render as icons */
-    #userinfo_minor #nav_inbox a,
-    #userinfo_minor #nav_staffinbox a,
-    #userinfo_minor #nav_uploaded a,
-    #userinfo_minor #nav_bookmarks a,
-    #userinfo_minor #nav_notifications a,
-    #userinfo_minor #nav_subscriptions a,
-    #userinfo_minor #nav_comments a,
-    #userinfo_minor #nav_friends a,
-    #userinfo_minor #nav_better a,
-    #userinfo_minor #nav_posts a,
-    #userinfo_minor #nav_logchecker a {
-        background-position: 50%, 0 0 !important;
-        background-size: 26px 26px, 0 0 !important;
-        border-radius: 6px;
-        width: 62px !important;
-        padding: 0 !important;
-        overflow: hidden !important;
-        text-indent: -9999px !important;
-    }
 }
